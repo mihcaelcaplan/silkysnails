@@ -39,20 +39,21 @@ Some examples of generated poems, and shots of the corresponding simulation wind
 ![1 browser](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/1/1_browser.png)
 
 ### Poem 2:
-![1](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/2/2.jpg)
-![1 browser](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/2/2_browser.png)
+There was an error in generating this one, and only the trails of one or two agents were parsed. I like it though, and I think the error is valuable.
+![2](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/2/2.jpg)
+![2 browser](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/2/2_browser.png)
 
 ### Poem 3:
-![1](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/3/3.jpg)
-![1 browser](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/3/3_browser.png)
+![3](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/3/3.jpg)
+![3 browser](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/3/3_browser.png)
 
 ### Poem 4:
-![1](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/4/4.jpg)
-![1 browser](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/4/4_browser.png)
+![4](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/4/4.jpg)
+![4 browser](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/4/4_browser.png)
 
 ### Poem 5:
-![1](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/5/5.jpg)
-![1 browser](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/5/5_browser.png)
+![5](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/5/5.jpg)
+![5 browser](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/5/5_browser.png)
 
 
 
