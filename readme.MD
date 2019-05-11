@@ -1,9 +1,9 @@
 ## Explanation
 
 The project started with this abstract:
-I want to create digital silkworms that live inside an agent-based modelling framework called Mesa. Agent-based modelling frameworks are commonly used to study emergent properties of multi-agent interactions, like bird or fish flocking behavior. Programmatically, I will create a poetic digital terrain that the agents will navigate, based on some sort of lifelike incentives. As they navigate, each agent will leave behind a textual trace, analogous to a snail-trail or silk fiber. This trail of words could be followed by other agents, or woven into some fabric by the interactions with other digital agents. At the end of a simulation, I will have a two dimensional web of overlapping text, laid down by the agents.
+I want to create digital silkworms that live inside an agent-based modelling framework called [Mesa](https://mesa.readthedocs.io/en/master/). Agent-based modelling frameworks are commonly used to study emergent properties of multi-agent interactions, like bird or fish flocking behavior. Programmatically, I will create a poetic digital terrain that the agents will navigate, based on some sort of lifelike incentives. As they navigate, each agent will leave behind a textual trace, analogous to a snail-trail or silk fiber. This trail of words could be followed by other agents, or woven into some fabric by the interactions with other digital agents. At the end of a simulation, I will have a two dimensional web of overlapping text, laid down by the agents.
 
-I worked in an agent-based simulation framework called Mesa to instantiate agents (I am in the habit of referring to them as silksnails) and to give them a simple environment to navigate in. The environment consists of a two dimensional grid populated with static “plants” that represent sources of text. When the agents come into contact with these plants, they eat and fill their bellies with text. The plant is now empty for them, and they continue to move around the environment in search for more food. As they move, they lay down text that becomes associated with the two-dimensional coordinates that they pass through. Each other agent in the simulation will follow a trail that they encounter with reverse polarity, away from the agent that is the source of the trail, and toward the plant from which the trail must have originated. After the simulation has finished, the trails of text that the agents have left behind are parsed into smooth paths of text and a PDF is generated that shows the paths of each agent through space.
+I worked in an agent-based simulation framework called [Mesa](https://mesa.readthedocs.io/en/master/) to instantiate agents (I am in the habit of referring to them as silksnails) and to give them a simple environment to navigate in. The environment consists of a two dimensional grid populated with static “plants” that represent sources of text. When the agents come into contact with these plants, they eat and fill their bellies with text. The plant is now empty for them, and they continue to move around the environment in search for more food. As they move, they lay down text that becomes associated with the two-dimensional coordinates that they pass through. Each other agent in the simulation will follow a trail that they encounter with reverse polarity, away from the agent that is the source of the trail, and toward the plant from which the trail must have originated. After the simulation has finished, the trails of text that the agents have left behind are parsed into smooth paths of text and a PDF is generated that shows the paths of each agent through space.
 
 ## How to read the code
 
@@ -12,11 +12,11 @@ I worked in an agent-based simulation framework called Mesa to instantiate agent
 
 First, you must set up your programming environment correctly. I didn’t have time to compile everything into a nice executable, so running the source code is your only option to programmatically interact with this world and to generate your own poems.
 
-You must have a working Python installation, preferably version 3.4 - 3.6. I think 3.7 breaks Mesa, and I had to downgrade at the start of the project.
+You must have a working Python installation, preferably version 3.4 - 3.6. I think 3.7 breaks [Mesa](https://mesa.readthedocs.io/en/master/), and I had to downgrade at the start of the project.
 
-Once your Python installation is set up, you must install PyX, which handles the PDF generation using a TeX backend. The installation instructions for PyX are here: add. You must separately install TeX, instructions for which can be found here: add.
+Once your Python installation is set up, you must install [PyX](http://pyx.sourceforge.net/), which handles the PDF generation using a TeX backend. The installation instructions for [PyX](http://pyx.sourceforge.net/) are here: http://pyx.sourceforge.net/manual/index.html. You must separately install TeX, instructions for which can be found here: https://www.latex-project.org/get/.
 
-Once you have done this, install Mesa using the instructions here:
+Once you have done this, install [Mesa](https://mesa.readthedocs.io/en/master/) using the instructions here: https://mesa.readthedocs.io/en/master/tutorials/intro_tutorial.html.
 
 Then, you’re ready to go!
 
