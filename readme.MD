@@ -21,7 +21,7 @@ Once you have done this, install [Mesa](https://mesa.readthedocs.io/en/master/) 
 Then, you’re ready to go!
 
 Download this repository as a .zip file or as a GIT repository using the command line, instructions for which can be found here: https://help.github.com/en/articles/cloning-a-repository.
-Simply run the file named "run.py" using the command `python run.py` in your terminal after navigating to the working directory. A browser window will open, and you will be able to set some parameters before running the simulation using the “Start” button in the menu bar. When you are finished with the simulation, inputting the key-combination “Ctrl+C” in the terminal window will stop the process and generate the image output.
+Simply run the file named "run.py" using the command `python run.py` in your terminal after navigating to the working directory. A browser window will open, and you will be able to set some parameters before running the simulation using the “Start” button in the menu bar. When you are finished with the simulation, inputting the key-combination `Ctrl+C` in the terminal window will stop the process and generate the image output.
 
 ## Media
 
