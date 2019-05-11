@@ -34,9 +34,10 @@ A screen capture of the simulation process:
 
 Some examples of generated poems, and shots of the corresponding simulation windows:
 
-Poem 1:
+### Poem 1:
+![1](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/1/1.jpg)
+![1 browser](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
-<embed src="https://github.com/mihcaelcaplan/silkysnails/raw/master/media/1/full.pdf"/>
 
 
 
