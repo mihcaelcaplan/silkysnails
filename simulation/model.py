@@ -34,7 +34,7 @@ class Model(Model):
             self.grid.place_agent(baby, pos)
 
         # place plants on the grid
-        source_list = os.listdir("corpus")
+        source_list = [n for n in os.listdir("corpus") if n!=".DS_Store"]
         start = {source:0 for source in source_list} # counting array needs to be outside loop
 
         for i in range(n_plants):

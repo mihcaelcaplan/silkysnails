@@ -29,7 +29,7 @@ class imageParser():
             points = [tuple(n[0]) for n in parsed['trail']]
             text_list = [n[1] for n in parsed['trail']]
             self.data[i] = [points, text_list]
-    
+
 
             print("\n")
 
@@ -38,23 +38,26 @@ class imageParser():
         c = canvas.canvas()
 
         for i in range(self.n):
-            try:
-                if not self.data[i][1]:
-                    print("Warning: Agent #%s is empty!\n"%i)
-                else:
-                    print("Adding Agent #%s to canvas"%i)
-                    print(self.data[i][1])
-                    text_string = ' '.join(self.data[i][1])
+            # try:
+            if not self.data[i][1]:
+                print("Warning: Agent #%s is empty!\n"%i)
+            else:
+                print("Adding Agent #%s to canvas"%i)
+                print(self.data[i][1])
+                text_string = ' '.join(self.data[i][1])
+                print(text_string)
 
-                    # generate a path
-                    print("Building path...")
-                    p = path_from_points(self.data[i][0])
+                # generate a path
+                print("Building path...")
+                p = path_from_points(self.data[i][0])
 
-                    print("Drawing path #%s out of %s"%(str(i+1), self.n))
-                    c.draw(p, [deco.curvedtext(text_string)])
+                print("Drawing path #%s out of %s"%(str(i+1), self.n))
+                c.draw(p, [deco.curvedtext(text_string)])
 
-            except:
-                print("Writing mysteriously failed for Agent #%s :("%i)
+            # except Exception as e:
+                # print("\nwriting failed\n")
+                # print(e)
+                # print("Writing mysteriously failed for Agent #%s :("%i)
 
         print("Outputting PDF file...\n")
         c.writePDFfile("outputs/full")

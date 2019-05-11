@@ -25,9 +25,8 @@ class Plant(Agent):
         # open a .txt file and pick some substring of complete words
 
         with io.open("corpus/%s"%self.source_name, 'r', encoding='windows-1252') as f:
-            print("opening: corpus/%s"%self.source_name)
-
             list = re.split('\W+', f.read())
+
 
         #randomly subselect some section of the list
         x = np.random.randint(0, len(list))
