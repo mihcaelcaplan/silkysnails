@@ -34,7 +34,7 @@ A screen capture of the simulation process:
 
 Some examples of generated poems, and shots of the corresponding simulation windows:
 Poem 1:
-<object style="width: 40vw; height: 40;" data="https://github.com/mihcaelcaplan/silkysnails/blob/master/media/1/full.pdf"></object>
+<image style="width: 40vw; height: 40;" src="https://github.com/mihcaelcaplan/silkysnails/blob/master/media/1/full.pdf"></image>
 
 
 ## Statement
