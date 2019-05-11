@@ -36,7 +36,27 @@ Some examples of generated poems, and shots of the corresponding simulation wind
 
 ### Poem 1:
 ![1](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/1/1.jpg)
-![1 browser](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![1 browser](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/1/1_browser.jpg)
+
+### Poem 2:
+![1](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/1/2.jpg)
+![1 browser](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/1/2_browser.jpg)
+
+### Poem 3:
+![1](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/1/3.jpg)
+![1 browser](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/1/3_browser.jpg)
+
+### Poem 4:
+![1](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/1/4.jpg)
+![1 browser](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/1/4_browser.jpg)
+
+### Poem 5:
+![1](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/1/5.jpg)
+![1 browser](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/1/5_browser.jpg)
+
+
+
+
 
 
 
