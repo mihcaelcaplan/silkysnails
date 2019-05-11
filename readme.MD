@@ -36,7 +36,7 @@ Some examples of generated poems, and shots of the corresponding simulation wind
 
 Poem 1:
 
-<embed src="file_name.pdf"/>
+<embed src="https://github.com/mihcaelcaplan/silkysnails/raw/master/media/1/full.pdf"/>
 
 
 
