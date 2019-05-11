@@ -33,9 +33,10 @@ A screen capture of the simulation process:
 
 
 Some examples of generated poems, and shots of the corresponding simulation windows:
+
 Poem 1:
 
-<iframe style="width:600px; height:500px;" frameborder="0"></iframe>
+<embed src="file_name.pdf"/>
 
 
 
