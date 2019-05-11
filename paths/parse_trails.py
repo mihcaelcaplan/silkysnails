@@ -20,18 +20,16 @@ class imageParser():
     def get_data(self):
         for i in range(self.n):
             print("Parsing agent #%s"%str(i))
-            # grab the file, parse and delete
-            try:
-                with open("outputs/%s.json"%i,'r') as f:
-                    parsed = json.loads(f.read())
-                os.remove("outputs/%s.json"%i)
+        # grab the file, parse and delete
+            with open("outputs/%s.json"%i,'r') as f:
+                parsed = json.loads(f.read())
+            os.remove("outputs/%s.json"%i)
 
-                # make some lists and save them in the data_dict
-                points = [tuple(n[0]) for n in parsed['trail']]
-                text_list = [n[1] for n in parsed['trail']]
-                self.data[i] = [points, text_list]
-            except:
-                print("Parsing failed!")
+            # make some lists and save them in the data_dict
+            points = [tuple(n[0]) for n in parsed['trail']]
+            text_list = [n[1] for n in parsed['trail']]
+            self.data[i] = [points, text_list]
+    
 
             print("\n")
 

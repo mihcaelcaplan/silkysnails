@@ -57,7 +57,7 @@ params = {'n_movers':n_agent_slider,
           'n_plants':n_plant_slider,
           'width':20,
           'height':20,
-          'snippet_length': 20,
+          'snippet_length': 20
 }
 
 display_width = 500
