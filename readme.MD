@@ -7,6 +7,10 @@ I worked in an agent-based simulation framework called [Mesa](https://mesa.readt
 
 ## How to read the code
 
+The interesting parts of the code live inside the "simulation" folder. These define the rules of the simulation. The silksnails are defined inside the file `mover.py`, the plants in `plant.py` and `trail.py` is a very short file that is used to lay a trail in the simulation. `model.py` defines the system-level configuration of the simulation, and `server.py` is used to link the Python code with the visualization which runs in a web browser.
+
+`mover.py` is the most engaging read, and offers some insight into how the agents navigate their world.
+
 
 ## Using this software
 
@@ -25,7 +29,13 @@ Simply run the file named "run.py" using the command `python run.py` in your ter
 
 ## Media
 
-Some examples of generated poems, and shots of the corresponding simulation windows.
+A screen capture of the simulation process:
+
+
+Some examples of generated poems, and shots of the corresponding simulation windows:
+Poem 1:
+![Poem 1](https://github.com/mihcaelcaplan/media/1/full.pdf)
+
 
 ## Statement
 
