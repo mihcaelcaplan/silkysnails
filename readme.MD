@@ -34,7 +34,7 @@ A screen capture of the simulation process:
 
 Some examples of generated poems, and shots of the corresponding simulation windows:
 Poem 1:
-<iframe src="https://docs.google.com/gview?url=https://github.com/mihcaelcaplan/silkysnails/raw/master/media/1/full.pdf&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe>
+<iframe style="width:600px; height:500px;" frameborder="0"></iframe>
 
 
 
