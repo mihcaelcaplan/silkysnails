@@ -29,7 +29,7 @@ Simply run the file named "run.py" using the command `python run.py` in your ter
 
 ## Media
 
-A screen capture of the simulation process:
+A screen capture of the simulation process can be found [here](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/example_video.mov) and downloaded. The video shows a simulation run in the browser.
 
 
 Some examples of generated poems, and shots of the corresponding simulation windows:
@@ -54,11 +54,6 @@ There was an error in generating this one, and only the trails of one or two age
 ### Poem 5:
 ![5](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/5/5.jpg)
 ![5 browser](https://github.com/mihcaelcaplan/silkysnails/blob/master/media/5/5_browser.png)
-
-
-
-
-
 
 
 
