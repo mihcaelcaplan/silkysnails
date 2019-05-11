@@ -1,5 +1,0 @@
-rough 1:
-
-mesa outputs something to be interpreted as an svg path
-
-svg library renders text along this path
